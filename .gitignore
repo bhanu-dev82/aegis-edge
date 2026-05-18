@@ -12,6 +12,6 @@ local.properties
 *.apk
 *.aab
 *.litertlm
-
+google-services.json
 # Google Services (keep debug, ignore root and release)
 /app/google-services.json
