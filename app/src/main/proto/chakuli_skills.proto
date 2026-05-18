@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "com.bhanu.aegis.core.data.datastore";
+option java_multiple_files = true;
+
+message ChakuliSkills {
+  repeated ChakuliSkill skill = 1;
+}
+
+message ChakuliSkill {
+  string name = 1;
+  string description = 2;
+  string instructions = 3;
+  bool built_in = 4;
+  string skill_url = 5;
+  string import_dir_name = 6;
+  bool selected = 7;
+  bool require_secret = 8;
+  string require_secret_description = 10;
+  string homepage = 9;
+}

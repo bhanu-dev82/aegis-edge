@@ -1,0 +1,30 @@
+R_DEF: Internal format may change without notice
+local
+color chakuli_coral
+color splash_background
+drawable ic_aegis_background
+drawable ic_aegis_foreground
+drawable ic_agent_skills
+drawable ic_chakuli_logo
+drawable ic_chat
+drawable ic_deep_think
+drawable ic_listen_chat
+drawable ic_see_chat
+drawable ic_splash_brand
+drawable ic_splash_logo
+font nunito_black
+font nunito_bold
+font nunito_extrabold
+font nunito_extralight
+font nunito_light
+font nunito_medium
+font nunito_regular
+font nunito_semibold
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.Chakuli
+style Theme.Chakuli.Splash
+xml backup_rules
+xml data_extraction_rules
+xml file_paths

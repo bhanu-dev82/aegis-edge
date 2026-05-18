@@ -1,0 +1,42 @@
+syntax = "proto3";
+
+option java_package = "com.bhanu.aegis.core.data.datastore";
+option java_multiple_files = true;
+
+message ChakuliSettings {
+  // 0 = SYSTEM, 1 = LIGHT, 2 = DARK
+  int32 theme_mode = 1;
+
+  // Last used model name per task type
+  string general_chat_model = 2;
+  string thinking_chat_model = 3;
+  string image_chat_model = 4;
+  string audio_chat_model = 5;
+  string agent_skills_model = 6;
+
+  // Per-task sampling config (stored as JSON string for simplicity)
+  string general_chat_sampler_json = 7;
+  string thinking_chat_sampler_json = 8;
+  string image_chat_sampler_json = 9;
+  string audio_chat_sampler_json = 10;
+  string agent_skills_sampler_json = 11;
+
+  // Per-task context length (max tokens)
+  int32 general_chat_max_tokens = 12;
+  int32 thinking_chat_max_tokens = 13;
+  int32 image_chat_max_tokens = 14;
+  int32 audio_chat_max_tokens = 15;
+  int32 agent_skills_max_tokens = 16;
+
+  // 0 = AUTO (smart), 1 = PERFORMANCE (keep all engines), 2 = MEMORY_SAVER (unload on switch)
+  int32 engine_mode = 17;
+
+  // Hugging Face access token for gated model downloads
+  string hugging_face_token = 18;
+
+  // Privacy: false (default) = crash reporting disabled, true = enabled
+  bool crash_reporting_enabled = 19;
+  
+  // Privacy: false (default) = analytics disabled, true = enabled (opt-in)
+  bool analytics_enabled = 20;
+}

@@ -1,0 +1,33 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Neural network nodes icon -->
+    <!-- Top node -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M12,2m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+    <!-- Left node -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M4,12m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+    <!-- Right node -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M20,12m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+    <!-- Bottom left node -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M8,20m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+    <!-- Bottom right node -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M16,20m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+    <!-- Connections -->
+    <path
+        android:strokeColor="@android:color/white"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M11,4L5,11M13,4L19,11M6,12L9,19M18,12L15,19M10,19L14,19"/>
+</vector>

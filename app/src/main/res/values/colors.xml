@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Warm cream — Chakuli light background, used for splash -->
+    <color name="splash_background">#FFF8F4</color>
+    <!-- Chakuli coral accent -->
+    <color name="chakuli_coral">#D4634A</color>
+</resources>
