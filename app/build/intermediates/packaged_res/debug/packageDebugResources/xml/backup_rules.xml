@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
-    Backup rules for Chakuli.
-    We exclude model files (too large) and sensitive settings.
--->
-<full-backup-content>
-    <exclude domain="external" path="." />
-    <exclude domain="database" path="." />
-</full-backup-content>

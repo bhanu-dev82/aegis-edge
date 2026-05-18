@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<paths>
-    <!-- Camera capture temp files stored in app cache -->
-    <cache-path name="camera_captures" path="." />
-</paths>

@@ -1,1 +1,0 @@
--keep,allowobfuscation,allowshrinking class com.bhanu.aegis.feature.settings.SettingsViewModel
