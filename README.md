@@ -25,7 +25,15 @@ Point your camera at a patient, describe symptoms by voice or text, and get inst
 
 ## 📱 Screenshots
 
-*Coming soon — demo video available on YouTube*
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9ddfb067-ed0d-40ad-b1bd-8c5b3e8cf157" width="220" />
+  <img src="https://github.com/user-attachments/assets/a94cdb64-9300-48c8-b7ef-7c6bb7567b57" width="220" />
+  <img src="https://github.com/user-attachments/assets/d9f6ac59-0127-47f3-812e-3f77b379bad1" width="220" />
+  <img src="https://github.com/user-attachments/assets/87fed076-8efc-48c1-9e2b-5d3dee884364" width="220" />
+</p>
+
+
+*demo video available on YouTube*
 
 ---
 
