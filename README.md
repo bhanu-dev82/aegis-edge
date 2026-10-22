@@ -61,7 +61,7 @@ Aegis-Edge implements the **Simple Triage and Rapid Treatment (START)** protocol
 
 ```bash
 # Clone
-git clone https://github.com/YOUR_USERNAME/aegis-edge.git
+git clone https://github.com/bhanu-dev82/aegis-edge.git
 cd aegis-edge
 
 # Build
